@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>IT프렌즈 프로토타입</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+    <script src="../script/jquery-3.6.4.min.js"></script>
+     </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-default">
+          <div class="container-fluid">
+            
+            <a class="navbar-brand" href="#top">딜리북스</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#intro">소개</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#notice">공지사항</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#board">게시판</a>
+                </li>
+                
+              </ul>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="mypage.html">마이페이지</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">로그인</a>
+
+                </li>
+            </ul>
+          </div>
+      </div>
+   </nav>
+   
+   <div class="first-page">
+     <p>
+       <span>
+         공공도서 배달서비스<br>
+          <strong>"딜리북스"</strong>
+          에 오신 것을 환영합니다.
+       </span>
+       <p/>
+     <div class="search">
+       <form class="d-flex">
+        <input class="form-control form-control-lg"  type="search" placeholder="Search" aria-label="Search" >
+         <button class="btn btn-outline-success" type="button" onClick="location.href='map.html'"> Search</button>
+        </form>
+      </div>
+    </p>
+
+    </div><!--first-page end-->
+   
+    <div class="second-page">
+       <a name="intro"></a>
+
+        <div class="intro-main">
+          <p>
+            <h1>
+              이젠 여러분의 책을 집에서 만나보세요!
+            </h1>
+              <div class="second-page-icon" >
+                <img src="./img/icon/library.png" style="width:400px;">
+                <img src="./img/icon/book.png" style="width:400px;">
+                <img src="./img/icon/delivery.png" style="width:400px;">
+              </div>
+              
+              
+              공공 서적 Delivery Matching System은요?<br><br>
+              당신이 보고 싶은 책을 도서관까지 가지 않아도, 집에서 책을 고르고 대여가 가능한 시스템입니다.<br>
+              가까운 도서관을 매칭해주고 선택한 도서들이 내 집앞까지 배송됩니다.<br>
+          </p>
+        </div>
+        <a href="#top" >top</a>
+    </div>
+   
+
+      <div class="third-page"  >
+        공지사항 
+      <a name="notice"></a>
+      
+      <div class="notice-board">
+        <h2>새소식</h2>
+        <h6>총 411개의 항목이 있습니다.</h6><br>
+        <ul>
+          <li><span>소식지</span> 서울특별시 강남구 룩인사이드 외 1곳의 지도 업데이트 </li><hr width="60%">
+          <li><span>업데이트</span> 동네서점 2022 겨울호 전국 판매처 20 </li><hr width="60%">
+          <li><span>소식지</span> 경상북도 경주시 너른벽 외 2곳의 지도 업데이트 </li><hr width="60%">
+        </ul>
+        
+      </div>
+      <div class="notice-sub">
+        <h2>소식지를 구독하세요</h2>
+        <h6>총 231개의 항목이 있습니다.</h6><br>
+        <ul>
+          <li><span>3180명이</span> 소식지를 읽고 있습니다.</li><hr width="60%">
+        </ul>
+        
+      </div>
+      <a href="#top">top</a>
+    </div>
+    
+ 
+
+    <div class="fourth-page" >
+      게시판
+    
+      <a href="#top" name="board">위로</a>
+    </div>
+     <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   
+  </body>
+</html>
