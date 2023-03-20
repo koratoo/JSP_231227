@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script>
+	document.cookie="username=soldesk";
+	</script>
+
+</head>
+<body>
+<div class="test-form" align="center">
+<h2 style="text-align:'center'">request 테스트 폼</h2>
+<hr />
+<form action="request_result.jsp" method="post">
+<table border="1">
+	<tr>
+		<td>이름</td>
+		<td colspan="2"'>
+		<input type="text" name="username" />
+		</td>
+	</tr>
+	<tr>
+		<td>직업</td>
+		<td colspan="2"'>
+			<select name="직업">
+				<option>무직</option>
+				<option>회사원</option>
+		
+		</select></td>
+	</tr>
+	<tr>
+		<td>취미</td>
+		<td colspan="2"'>
+			<input type="checkbox" name="favorite" value="스포츠">스포츠
+			<input type="checkbox" name="favorite" value="IT">IT 
+			<input type="checkbox" name="favorite" value="사회">사회</td>
+	</tr>
+	<tr align="center">
+		<td colspan="3"><input type="submit" value="확인"/>
+							 <input type="reset" value="취소"/></td>
+	</tr>
+</table>
+
+</form>
+</div>
+</body>
+</html>
